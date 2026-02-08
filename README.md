@@ -1,48 +1,38 @@
-# Edu_agent
+# edu_agent
 
-An educational AI agent designed to assist learners by providing interactive explanations and guidance through a backend service.  
-This project is built in the context of an assessment to demonstrate the design and implementation of an educational agent system.
-
----
-
-## 📌 Project Overview
-
-`edu_agent` implements an educational agent that acts as a learning assistant.  
-The agent is structured as a backend application, making it easy to trigger, evaluate, and extend its educational behavior via code or APIs.
-
-The focus of this project is not only on the agent itself, but also on:
-- clean project structure
-- separation of concerns
-- assessment-ready design
+A simple demo project that implements an educational AI agent for learning assistance.  
+This repository is intended as a lightweight demonstration rather than a full production-ready system.
 
 ---
 
-## 🎯 Problem It Solves
+## Overview
 
-Traditional learning resources are often static and non-interactive.  
-This project addresses that by providing an **AI-powered educational agent** that can:
-- respond to learning queries
-- explain concepts interactively
-- be evaluated consistently in an assessment setting
+`edu_agent` is a small demo application that showcases the basic idea of an educational agent.  
+The agent is designed to respond to educational queries and provide simple explanations.
 
----
-
-## 🧠 Key Features
-
-- Educational AI agent logic encapsulated in a dedicated module
-- Backend-driven architecture for easy integration and testing
-- Designed for demonstration and evaluation purposes
-- Simple and extensible codebase
+The project focuses on demonstrating:
+- basic agent structure
+- clean and readable code
+- how an educational agent can be organized in a backend application
 
 ---
 
-## 🗂️ Project Structure
+## What This Project Demonstrates
+
+- A minimal educational agent implementation
+- Separation of agent logic from the application entry point
+- How an educational agent can be exposed through a simple backend setup
+- A clear and easy-to-understand project structure
+
+---
+
+## Project Structure
 
 ```text
 edu_agent/
 │
 ├── app.py              # Application entry point
-├── agents.py           # Educational agent logic
-├── requirements.txt    # Project dependencies
-├── .gitignore          # Ignored files (venv, cache)
+├── agents.py           # Educational agent logic (demo)
+├── requirements.txt    # Dependencies
+├── .gitignore          # Ignored files
 └── README.md           # Project documentation
